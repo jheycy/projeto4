@@ -10,6 +10,7 @@
     --cor-tres: #ece9e5;
     --BRANCO: white;
     --preto: black;
+    --cor-dois:#eac1a3;
   }
   .nav-topo{
     background-color: var(--cor-secundaria);
@@ -109,9 +110,35 @@
 
 #banner {
     width: 100%;
-    background-image: url("../imgs/Design_sem_nome-removebg-preview.png");
+    background-image: url("../projeto2/imgs/Design_sem_nome-removebg-preview.png");
    
     background-size: cover;
     height: 800px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
 
+}
+
+.column{
+  
+  align-items: center;
+  font-weight: bold;
+  padding: px;
+  margin: 300px 200px;
+  background-color: var(--cor-tres);
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+  opacity: 60%;
+  border:4px solid var(--cor-dois);
+ 
+
+}
+.text-card{
+ color: var(--BRANCO);
+
+ padding: 80px;
+ font-size: 40px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
