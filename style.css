@@ -135,10 +135,10 @@
  
 
 }
-.text-card{
+#text-card{
  color: var(--BRANCO);
 
- padding: 80px;
+ padding: 40px;
  font-size: 40px;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
