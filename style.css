@@ -359,4 +359,45 @@
   justify-content: center;
 }
 
+#sar{
+  font-size: 18px;
+}
+#central{
+  background-color:var(--cor-quatro);
+  width: 1905px;
+  height: 100px;
+  text-decoration: none;
+}
+.sa{
+ text-decoration: none;
+  margin-top: 20%;
+  display: flex;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 41%;
+  color: #ffffff;
+}
+#ajuda{
+margin-left: 45.9%;
+justify-content: center;
+margin-top: 0.5%;
+}
+.sarinha{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.oka{
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 45% ;
+  margin-top: 0.3%;
+}
+.sari{
+  text-decoration: 0;
+}
+
+
 
